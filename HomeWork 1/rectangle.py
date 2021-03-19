@@ -5,7 +5,7 @@ class Rectangle:
 
     def area(self):
         self.area_info = self.width * self.length
-        return self.area
+        return self.area_info
 
     def perimeter(self):
         self.perimeter_info = (self.width+self.length) * 2
